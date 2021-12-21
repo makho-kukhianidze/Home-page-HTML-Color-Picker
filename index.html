@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="my project">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Makho kukhianidze">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Color-Picker</title>
+  <link rel = "icon" href ="assets/icons/m.png  " type = "image/x-icon">
+</head>
+
+<body>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-close"></i></a>
+    <img class="logo" src="assets/images/logo/max-logo.png" alt="logo">
+    <h2>Menu</h2>
+    <a href="#">Home</a>
+    <a href="#">Codes</a>
+    <a href="#">Front-end</a>
+    <a href="#">Back-End</a>
+    <a href="#">IT</a>
+    <a href="#">Contact</a>
+  </div>
+  <button class="openbtn" onclick="openNav()"><img class="logo" src="assets/images/logo/max-logo.png" alt="logo">☰ Our
+    menu</button>
+  <div class="main-container" id="main">
+    <div class="news-boxes">
+      <div class="one-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff6666</td>
+            <td>rgb(255,102,102)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="two-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#0080ff</td>
+            <td>rgb(0,128,255)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="three-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="four-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="five-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff0080</td>
+            <td>rgb(255,0,128)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="six-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#00bfff</td>
+            <td>rgb(0,191,255)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="seven-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff8000</td>
+            <td>rgb(255,128,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="eight-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff4000</td>
+            <td>rgb(255,64,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="nine-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff00ff</td>
+            <td>rgb(255,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="ten-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bfff00</td>
+            <td>rgb(191,255,0)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="eleven-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="twvelve-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="three-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="four-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="five-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff0080</td>
+            <td>rgb(255,0,128)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="six-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#00bfff</td>
+            <td>rgb(0,191,255)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="seven-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff8000</td>
+            <td>rgb(255,128,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="eight-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff4000</td>
+            <td>rgb(255,64,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="nine-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff00ff</td>
+            <td>rgb(255,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="ten-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bfff00</td>
+            <td>rgb(191,255,0)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="three-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="four-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="five-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff0080</td>
+            <td>rgb(255,0,128)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="one-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff6666</td>
+            <td>rgb(255,102,102)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="two-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#0080ff</td>
+            <td>rgb(0,128,255)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="three-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="four-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="five-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff0080</td>
+            <td>rgb(255,0,128)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="six-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#00bfff</td>
+            <td>rgb(0,191,255)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="seven-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff8000</td>
+            <td>rgb(255,128,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="eight-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff4000</td>
+            <td>rgb(255,64,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="nine-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff00ff</td>
+            <td>rgb(255,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="ten-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bfff00</td>
+            <td>rgb(191,255,0)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="eleven-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="twvelve-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="three-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="four-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="five-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff0080</td>
+            <td>rgb(255,0,128)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="six-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#00bfff</td>
+            <td>rgb(0,191,255)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="seven-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff8000</td>
+            <td>rgb(255,128,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="eight-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff4000</td>
+            <td>rgb(255,64,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="nine-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff00ff</td>
+            <td>rgb(255,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="ten-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bfff00</td>
+            <td>rgb(191,255,0)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="three-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="four-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="five-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff0080</td>
+            <td>rgb(255,0,128)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="one-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff6666</td>
+            <td>rgb(255,102,102)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="two-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#0080ff</td>
+            <td>rgb(0,128,255)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="three-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="four-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="five-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff0080</td>
+            <td>rgb(255,0,128)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="six-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#00bfff</td>
+            <td>rgb(0,191,255)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="seven-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff8000</td>
+            <td>rgb(255,128,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="eight-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff4000</td>
+            <td>rgb(255,64,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="nine-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff00ff</td>
+            <td>rgb(255,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="ten-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bfff00</td>
+            <td>rgb(191,255,0)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="eleven-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="twvelve-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="three-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="four-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="five-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff0080</td>
+            <td>rgb(255,0,128)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="six-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#00bfff</td>
+            <td>rgb(0,191,255)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="seven-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff8000</td>
+            <td>rgb(255,128,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="eight-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff4000</td>
+            <td>rgb(255,64,0)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="nine-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff00ff</td>
+            <td>rgb(255,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="ten-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bfff00</td>
+            <td>rgb(191,255,0)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="news-boxes">
+      <div class="three-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#bf00ff</td>
+            <td>rgb(191,0,255)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="four-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#b34d4d</td>
+            <td>rgb(179,77,77)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="five-box">
+        <table>
+          <tr>
+            <th class="divide">Hex</th>
+            <th>Rgb</th>
+          </tr>
+          <tr>
+            <td class="divide">#ff0080</td>
+            <td>rgb(255,0,128)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <i onclick="topFunction()" id="Back-to-top-Button" class="fa fa-chevron-up"></i>
+  <footer>
+    <p>Author: Makho kukhianidze</p>
+  </footer>
+  <script src="assets/js/scroll-top-button-and-menu.js"></script>
+</body>
+
+</html>
